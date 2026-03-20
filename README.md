@@ -47,4 +47,4 @@ This project is split into a separated frontend and backend architecture to enfo
 4. Run `npm run dev`
 
 ### Backend Setup
-Please refer to the [Backend Repository](link) for Python environment instructions, Supabase table schemas, and Groq API configurations.
+Please refer to the [Backend Repository](https://github.com/tpercival01/Fabricated) for Python environment instructions, Supabase table schemas, and Groq API configurations.
