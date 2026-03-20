@@ -37,7 +37,7 @@ export default function AccusationModal({
     try {
       const clueIds = connectedClues.map((c) => c.id);
       const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-      const response = await fetch(`${baseUrl}/api/cases/${caseId}/accuse`,
+      const res = await fetch(`${baseUrl}/api/cases/${caseId}/accuse`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
