@@ -1,4 +1,15 @@
 import "./globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Fabricated | AI Murder Mystery",
+  description: "A procedural true-crime detective game powered by Llama 3. Generate unique cases, connect the clues on a digital corkboard, and submit your theory to the AI Judge.",
+  openGraph: {
+    title: "Fabricated | Infinite Detective",
+    description: "Solve dynamically generated murder mysteries.",
+    type: "website",
+  }
+};
 
 
 export default function RootLayout({
