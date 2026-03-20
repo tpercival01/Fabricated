@@ -1,6 +1,7 @@
 # Fabricated (Formerly Infinite Detective)
 
 **Live Demo:** https://fabricated-iho0d14x4-tpercival01s-projects.vercel.app/
+
 **Backend Repository:** https://github.com/tpercival01/Fabricated-AI-Engine
 
 ## Project Overview
