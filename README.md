@@ -1,7 +1,7 @@
 # Fabricated (Formerly Infinite Detective)
 
-**Live Demo:** [Insert Vercel URL Here]
-**Backend Repository:** [Insert Link to your Python Backend Repo Here]
+**Live Demo:** https://fabricated-iho0d14x4-tpercival01s-projects.vercel.app/
+**Backend Repository:** https://github.com/tpercival01/Fabricated-AI-Engine
 
 ## Project Overview
 Fabricated is a procedural true-crime mystery game built to demonstrate advanced LLM orchestration, complex state management, and full-stack system architecture. 
