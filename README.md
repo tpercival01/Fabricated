@@ -1,5 +1,7 @@
 # Fabricated (Formerly Infinite Detective)
 
+![Alt text describing the image](example.png)
+
 **Live Demo:** https://fabricated-gamma.vercel.app/
 
 **Backend Repository:** https://github.com/tpercival01/Fabricated-AI-Engine
