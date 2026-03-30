@@ -1,4 +1,4 @@
-# Fabricated (Formerly Infinite Detective)
+# Fabricated
 
 ![Alt text describing the image](example.png)
 
