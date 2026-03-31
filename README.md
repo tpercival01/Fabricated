@@ -2,7 +2,7 @@
 
 ![Alt text describing the image](example.png)
 
-**Live Demo:** https://fabricated-gamma.vercel.app/
+**Live Demo:** https://fabricated.thomaspercival.dev/
 
 **Backend Repository:** https://github.com/tpercival01/Fabricated-AI-Engine
 
