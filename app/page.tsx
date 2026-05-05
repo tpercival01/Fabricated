@@ -78,6 +78,33 @@ export default function LandingPage() {
     <div className="flex flex-col items-center justify-center h-screen">
       <h1 className="text-4xl font-bold mb-8">Fabricated</h1>
 
+      <section className="mb-8 text-center">
+        <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-red-400">
+          Procedural AI mystery game
+        </p>
+      
+        <p className="mx-auto max-w-2xl text-sm leading-6 text-neutral-300">
+          Fabricated generates a unique murder mystery case on demand. Choose a theme, select a difficulty, then investigate suspects, connect evidence on a digital case board, and submit your final theory to an AI judge.
+        </p>
+      
+        <div className="mt-6 grid gap-3 text-left text-sm text-neutral-300 sm:grid-cols-3">
+          <div className="rounded border border-neutral-700 bg-neutral-900 p-4">
+            <strong className="block text-white">Generate</strong>
+            Create a new case from your own theme.
+          </div>
+      
+          <div className="rounded border border-neutral-700 bg-neutral-900 p-4">
+            <strong className="block text-white">Investigate</strong>
+            Review suspects, clues, motives, and contradictions.
+          </div>
+      
+          <div className="rounded border border-neutral-700 bg-neutral-900 p-4">
+            <strong className="block text-white">Accuse</strong>
+            Submit your theory and evidence for judgement.
+          </div>
+        </div>
+      </section>
+
       {error && <p className="text-red-500 mb-4">{error}</p>}
 
       <div className="flex flex-col gap-4 w-80">
@@ -92,6 +119,9 @@ export default function LandingPage() {
             className="border p-2 w-full text-white rounded"
           />
         </div>
+        <p className="mb-2 text-xs uppercase tracking-widest text-neutral-500">
+          Try themes like 1920s mafia, lunar research base, gothic manor, or corporate cybercrime.
+        </p>
 
         <div>
           <label className="block text-sm font-bold mb-2">Difficulty</label>
